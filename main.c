@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-	unsigned int i=0;
+	unsigned int i=0;//consider size of i
 	scanf("%u",&i);
 	if( i & 0x1)
 		printf("Odd\n");
