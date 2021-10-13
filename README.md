@@ -17,6 +17,9 @@ main:
         mov     DWORD PTR [rbp-20], edi
         mov     QWORD PTR [rbp-32], rsi
         mov     DWORD PTR [rbp-4], 0
+</pre>
+In my machine, one word is equivalent to 16 bits.
+<pre>
         lea     rax, [rbp-4]
 </pre>
 load var i address into rax
