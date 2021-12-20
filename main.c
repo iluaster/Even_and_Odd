@@ -6,6 +6,7 @@ int main(int argc, char *argv[])
 	//64bits value range: 0~(2^64)-1
 	//0~18446744073709551616
 	scanf("%u",&i);
+	//n % 2^i = n & (2^i - 1)
 	if( i & 0x1)
 		printf("Odd\n");
 	else
