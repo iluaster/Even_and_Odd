@@ -2,6 +2,9 @@
 
 X86 Assembly code
 
+In fact, if you perform modular arithmetic on powers of 2, you can always convert it into bitwise operations.
+
+Some compiles (e.g., GCC) also produce bitwise operation assembly code smartly.
 
 <pre>
 .LC0:
